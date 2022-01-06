@@ -1,0 +1,15 @@
+.weather-favorite-list-item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.buttons {
+	display: flex;
+	margin-left: 10px;
+}
+.buttons button {
+	margin-left: 5px;
+}

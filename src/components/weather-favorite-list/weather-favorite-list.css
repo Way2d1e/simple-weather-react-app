@@ -1,0 +1,10 @@
+.weather-favorite-list {
+	height: 330px;
+	width: 270px;
+	margin: 0 0 0 20px;
+	padding: 10px;
+	border-radius: 10px;
+	list-style: none;
+	background-color: #3c9a73;
+	overflow-y: auto;
+}

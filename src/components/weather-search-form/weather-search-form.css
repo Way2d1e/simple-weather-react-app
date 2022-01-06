@@ -1,0 +1,18 @@
+.weather-search-form {
+	width: 350px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #3c9a73;
+}
+
+.form-elements {
+	display: flex;
+}
+
+.form-elements Button {
+	margin-left: 10px;
+}
+.form-elements div {
+	width: 100%;
+}
