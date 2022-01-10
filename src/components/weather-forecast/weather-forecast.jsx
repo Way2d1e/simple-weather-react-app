@@ -38,19 +38,16 @@ const WeatherForecast = () => {
 	useEffect(() => {
 		console.log('loading favoritelist from localstorage');
 		if (localStorage.getItem('favoriteList')) {
-			console.log('favoritelist loaded');
 			dispatch(
 				setFavoriteList([...JSON.parse(localStorage.getItem('favoriteList'))]),
 			);
 		} else {
-			console.log('favoritelist not found');
 		}
 	}, []);
 
 	const saveInLocalStorage = (list) => {
 		if (list.length) {
 			localStorage.setItem('favoriteList', JSON.stringify(list));
-			console.log('save in localstorage list');
 		}
 	};
 
